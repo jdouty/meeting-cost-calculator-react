@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../logo.svg';
+import '../css/App.css';
 
 class App extends Component {
   render() {
@@ -8,10 +8,14 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>How much did your meeting cost?</h2>
+
+          <p className="App-intro">
+            Select the meeting length and number of participants to get started.
+          </p>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Select the meeting length and number of participants to get started. 
         </p>
       </div>
     );
